@@ -53,57 +53,6 @@ Docker permitirá crear contenedores para cada servicio o módulo, lo que facili
 Dockerfile: Para cada módulo, se define un Dockerfile que indique cómo construir el contenedor. 
 docker-compose.yml: Un archivo para orquestar los diferentes módulos y contenedores, definir las redes y volúmenes que utilizarán.
 
-"""
-project-root/
-│
-├── auth/
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── main/java/com/example/auth/    # Código Java del backend
-│   │   │   └── resources/application.properties
-│   │   ├── Dockerfile
-│   │   └── pom.xml                            # Dependencias del proyecto
-│   └── frontend/
-│       ├── index.html                         # HTML para la UI de Autenticación
-│       └── styles.css                         # Estilos CSS
-│
-├── customers/
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── main/java/com/example/customers/
-│   │   │   └── resources/application.properties
-│   │   ├── Dockerfile
-│   │   └── pom.xml
-│   └── frontend/
-│       ├── index.html
-│       └── styles.css
-│
-├── inventory/
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── main/java/com/example/inventory/
-│   │   │   └── resources/application.properties
-│   │   ├── Dockerfile
-│   │   └── pom.xml
-│   └── frontend/
-│       ├── index.html
-│       └── styles.css
-│
-├── reservations/
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── main/java/com/example/reservations/
-│   │   │   └── resources/application.properties
-│   │   ├── Dockerfile
-│   │   └── pom.xml
-│   └── frontend/
-│       ├── index.html
-│       └── styles.css
-│
-├── docker-compose.yml
-└── README.md
-
-"""
 
 ![Captura de pantalla 2024-10-24 124946](https://github.com/user-attachments/assets/466016a9-1229-4ac6-9ebf-d39681b72d85)
 
