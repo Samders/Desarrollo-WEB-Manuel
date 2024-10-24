@@ -1,0 +1,1 @@
+En este proyecto se pretende crear una aplicacion para una corporación que tiene manejo de clientes, control de inventarios, reservas, formularios de solicitudes, base de datos de benificiarios, documentos publicos, cn funciones de administrador y de cliente general 
