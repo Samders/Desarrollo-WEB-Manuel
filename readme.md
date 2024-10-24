@@ -105,4 +105,8 @@ project-root/
 
 """
 
+![Captura de pantalla 2024-10-24 124946](https://github.com/user-attachments/assets/466016a9-1229-4ac6-9ebf-d39681b72d85)
+
+
+
 
