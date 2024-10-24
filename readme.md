@@ -53,6 +53,7 @@ Docker permitirá crear contenedores para cada servicio o módulo, lo que facili
 Dockerfile: Para cada módulo, se define un Dockerfile que indique cómo construir el contenedor. 
 docker-compose.yml: Un archivo para orquestar los diferentes módulos y contenedores, definir las redes y volúmenes que utilizarán.
 
+"""
 project-root/
 │
 ├── auth/
@@ -101,5 +102,7 @@ project-root/
 │
 ├── docker-compose.yml
 └── README.md
+
+"""
 
 
