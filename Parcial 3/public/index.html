@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Manuel Naranjo">
+    <meta name="description" content="Parcial 2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestion de la Clinica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Clinic Management System</h1>
+
+    <div id="doctor-login">
+        <h2>Doctor Login</h2>
+        <form id="doctor-login-form">
+            <label for="doctor-email">Email:</label>
+            <input type="email" id="doctor-email" required>
+            <label for="doctor-password">Password:</label>
+            <input type="password" id="doctor-password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="patient-login">
+        <h2>Patient Login</h2>
+        <form id="patient-login-form">
+            <label for="patient-email">Email:</label>
+            <input type="email" id="patient-email" required>
+            <label for="patient-password">Password:</label>
+            <input type="password" id="patient-password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="appointments">
+        <h2>Appointments</h2>
+        <button id="get-appointments">Get Appointments</button>
+        <div id="appointments-list"></div>
+    </div>
+    <footer class="footer">
+        Desarrollado Por: Manuel Naranjo <br>
+        Universidad De Antioquia <br>
+        2024-2
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
