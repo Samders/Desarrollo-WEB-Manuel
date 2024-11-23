@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mi_aplicacion
+    networks:
+      - app-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+  mongo:
+    image: mongo:latest
+    volumes:
+      - ./database/init.js:/docker-entrypoint-initdb.d/init.js
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
